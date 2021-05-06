@@ -200,8 +200,7 @@ footer {
 .contact-list {
 	list-style-type: none;
 	padding: 0;
-	display:flex;
-	justify-content:center;
+	
 }
 
 .contact-list a{
@@ -221,9 +220,14 @@ footer {
 		margin-right:20px;
 	}
 
-	
+	.contact-list {
+		display:flex;
+	justify-content:center;
+	}
 }
 
 @media screen and (max-width:749px){
-	
+	.content-list a {
+		padding: 5px;
+	}
 }
