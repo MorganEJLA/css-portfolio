@@ -90,20 +90,28 @@ a {
 	 list-style-type: none;
  }
 
-.content-wrapper h1 {
+.content-wrapper h1{
 	font-family:'Antonio', sans-serif;
 	padding-top: 300px;
 	
 }
-.content-wrapper p {
+.content-wrapper p{
 	font-weight: 400;
 	font-family: "Roboto Slab", serif;
 	
 }
 
+.footer a {
+	color: #000000;
+}
+.footer h2 {
+	color: #000000;
+	text-align:center;
+}
 
-
-
+.footer li{
+	margin-left: -20px;
+}
  /* .content-wrapper header h1{
 	 padding:200px 0;
  }
@@ -123,15 +131,7 @@ a {
 	border-bottom:none;
  }
 
- footer h2, a {
-	 color: black;
 
- }
-
- footer li {
-	 display:inline-block;
-	 padding: 0 40px;
- }
 /* Profile
  --------------------------------------------*/
 header {
@@ -185,7 +185,7 @@ header p{
 	text-decoration:none;
 	padding:8px;
 	border-radius:4px;
-	display:inline-block;
+	display: inline-block;
 
 
 }
@@ -226,6 +226,9 @@ header p{
 
 /* Contact Info
  --------------------------------------------*/
+
+
+
 
 
 
